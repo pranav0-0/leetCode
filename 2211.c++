@@ -37,7 +37,7 @@ int main(){
             collide++;
         }
         else if(!s.empty() && dir[i]=='S' && s.top()=='R'){
-            while(!s.empty() && s.top()=='R' ){
+            while(!s.empty() && s.top()=='R'){
                 s.pop();
                 collide++;
                 if(s.empty()) break;
